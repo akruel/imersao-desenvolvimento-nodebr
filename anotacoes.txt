@@ -1,0 +1,7 @@
+Event loop -> fluxo de eventos.
+
+Toda operação bloqueante (acesso a banco, arquivos) é delegado ao sistema operacional.
+Armazena as tarefas em pilha de eventos.
+Utiliza callbacks.
+
+Listar usuário -> event loop -> delega ao banco de dados a tarefa, passando um callback ao terminar -> event loop -> lista os usuários.
